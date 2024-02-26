@@ -39,6 +39,10 @@ This project is licensed under the [MIT] License - see the LICENSE.md file for d
 
 ## Images
 
+
+https://github.com/sjunka/EurekaLabs/assets/12448595/6b371273-1e8d-41b5-8a66-0e22c9eea6ec
+
+
 ![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_1.png)
 ![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_2.png)
 ![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_3.png)
