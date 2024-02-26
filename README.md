@@ -38,3 +38,10 @@ Linkedin [@sjunka](https://www.linkedin.com/in/sjunka/)
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
 ## Images
+
+![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_1.png)
+![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_2.png)
+![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_3.png)
+![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_4.png)
+![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_5.png)
+![Screenshot of the project](https://raw.githubusercontent.com/sjunka/EurekaLabs/main/src/utils/images/Screenshot_6.png)
