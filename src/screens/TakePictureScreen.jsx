@@ -1,5 +1,5 @@
 import React, {useState, useRef, useEffect, useContext, useMemo} from 'react';
-import {View, Text, Button, StyleSheet, Alert, Image} from 'react-native'; 
+import {View, Text, Button, StyleSheet, Alert, Image} from 'react-native';
 import {
   Camera,
   useCameraPermission,
@@ -43,39 +43,34 @@ const TakePictureScreen = ({}) => {
           position: location,
         };
         setPhotos(prevPhotos => [...prevPhotos, photo]);
-        ShowPictures(photos)
+        ShowPictures(photos);
       }
     } catch (e) {
       Alert.alert(`Error: ${e}`);
     }
   };
 
-
-        const ShowPictures = ({photos}) => {
+  const ShowPictures = ({photos}) => {
+    return (
+      <View style={styles.container}>
+        <Text>Photos</Text>
+        {photos?.map((photo, index) => {
           return (
-            <View style={styles.container}>
-              <Text>Photos</Text>
-              {photos?.map((photo, index) => {
-                console.log('🚀 ~ ShowPictures ~ photos:', photo.image.path);
-
-                return (
-                  <View key={index}>
-                    <Image
-                      source={{uri: `file://${photo.image.path}`}}
-                      style={styles.image}
-                    />
-                  </View>
-                );
-              })}
+            <View key={index}>
+              <Image
+                source={{uri: `file://${photo.image.path}`}}
+                style={styles.image}
+              />
             </View>
           );
-        };
+        })}
+      </View>
+    );
+  };
 
-        useMemo(() => {
-          ShowPictures(photos);
-        }, [photos]);
-        
-
+  useMemo(() => {
+    ShowPictures(photos);
+  }, [photos]);
 
   if (!hasPermission) {
     return (
@@ -95,7 +90,7 @@ const TakePictureScreen = ({}) => {
         photo={true}
       />
 
-      {photos && <ShowPictures photos={photos} /> }
+      {photos && <ShowPictures photos={photos} />}
 
       <Button
         title="Take Picture"
