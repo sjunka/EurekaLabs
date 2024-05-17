@@ -4,7 +4,7 @@ App demo sobre code challenge
 
 ## Description
 
-RN app mostrando funcionalidades de vision camera & Geolocation
+RN app mostrando funcionalidades de vision camera, Geolocation, Gallery screen
 
 ## Getting Started
 
